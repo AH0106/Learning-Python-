@@ -1,0 +1,27 @@
+{
+  "Funcion con docstring (completa)": {
+    "prefix": "deff",
+    "body": [
+      "def ${1:nombre_funcion}(${2:parametros}):",
+      "    \"\"\"${3:Descripcion en una linea, en imperativo.}",
+      "",
+      "    Args:",
+      "        ${4:param}: ${5:que es y que tipo se espera}.",
+      "",
+      "    Returns:",
+      "        ${6:que devuelve}.",
+      "    \"\"\"",
+      "    ${0:pass}"
+    ],
+    "description": "def + docstring estilo Google con Args y Returns"
+  },
+  "Funcion con docstring (una linea)": {
+    "prefix": "defs",
+    "body": [
+      "def ${1:nombre_funcion}(${2:parametros}):",
+      "    \"\"\"${3:Display/Return ...}\"\"\"",
+      "    ${0:pass}"
+    ],
+    "description": "def + docstring de una linea (estilo PCC)"
+  }
+}

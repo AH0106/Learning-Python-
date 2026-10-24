@@ -1,0 +1,1 @@
+printf '%s\n' '.venv/' 'venv/' '.DS_Store' '.ruff_cache/' '__pycache__/' '*.pyc' '.ipynb_checkpoints/' '.vscode/' '*.pdf' 'pcc_3e-main/' > .gitignore
